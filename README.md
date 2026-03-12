@@ -1,6 +1,6 @@
 # Monte Carlo Simulation Visualizer
 
-Estimating π using random sampling — and visualizing how the estimate converges as sample size grows from 1,000 to 1,000,000.
+Estimating π using random sampling and visualizing how the estimate converges as sample size grows from 1,000 to 1,000,000.
 
 ![Monte Carlo Results](monte_carlo_results.png)
 
@@ -8,7 +8,7 @@ Estimating π using random sampling — and visualizing how the estimate converg
 
 ## What is this?
 
-This project uses the **Monte Carlo method** to estimate the value of π (3.14159...) without any formula — just random numbers and geometry.
+This project uses the **Monte Carlo method** to estimate the value of π (3.14159...) without any formula just random numbers and geometry.
 
 The idea is simple:
 
@@ -67,7 +67,7 @@ n=   100,000  →  π ≈ 3.142680  |  error = 0.001087
 n= 1,000,000  →  π ≈ 3.141220  |  error = 0.000373
 ```
 
-Error drops roughly 10× for every 100× increase in sample size — consistent with O(1/√n) convergence.
+Error drops roughly 10× for every 100× increase in sample size ,consistent with O(1/√n) convergence.
 
 ---
 
