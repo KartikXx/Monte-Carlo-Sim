@@ -41,7 +41,7 @@ This project implements it on a simple, provable problem so the behavior is easy
 ## What this project does
 
 ### 1. Runs the simulation at scale
-Simulates random sampling at 50 different sample sizes — from n=1,000 to n=1,000,000 — and records the π estimate and error at each step.
+Simulates random sampling at 50 different sample sizes  from n=1,000 to n=1,000,000  and records the π estimate and error at each step.
 
 ### 2. Produces 3 visualizations
 
@@ -87,7 +87,7 @@ pip install numpy matplotlib
 
 **Run**
 ```bash
-python monte_carlo.py
+python main.py
 ```
 
 The script will print convergence data to the terminal and save `monte_carlo_results.png` in the same directory.
@@ -98,7 +98,7 @@ The script will print convergence data to the terminal and save `monte_carlo_res
 
 ```
 monte_carlo/
-├── monte_carlo.py          # Main simulation and visualization
+├── main.py          # Main simulation and visualization
 ├── monte_carlo_results.png # Output plot (generated on run)
 └── README.md
 ```
